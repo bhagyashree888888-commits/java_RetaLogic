@@ -17,15 +17,25 @@ public class a {
      class Dmethod{
         void dmethod(){
 
-        System.out.println("default class ");
+        System.out.println("default class type here ");
     }}
+
+    public  class  type{
+        void type(){
+            System.out.println("public class type here ");
+        }
+    }
     public static void main(String[] args) {
  a bb= new a();
  bb.defaultM();
  bb.privateM();
  bb.protectedM();
  bb.publicM();
- b aa=new a();
- aa.dm
+ //OuterClass.InnerClass obj = outerObject.new InnerClass();
+        // A.Dmethod d = bb.new Dmethod();
+ a.Dmethod i=bb.new Dmethod();
+ i.dmethod();
+ a.type obj=bb.new type();
+ obj.type();
     }
 }
