@@ -1,19 +1,19 @@
 package org.example.basic;
 
 public class syntaxes {
-    //class syntax
+//    class syntax
 //    public class ClassName {
 //        // fields
 //        // constructors
 //        // methods
 //    }
-
+//
 //    //Method Syntax
 //    accessModifier returnType methodName(parameters) {
 //        // method body
 //    }
-
-    //constructor syntax
+//
+//    constructor syntax
 //    accessModifier ClassName(parameters) {
 //        // constructor body
 //    }

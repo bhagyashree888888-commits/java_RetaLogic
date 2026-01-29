@@ -6,8 +6,8 @@ public class b extends  a{
         System.out.println(" b method");
     }
 
-    public static void main(String[] args) {
-        a bb=new b();
-        bb.a();
+    public void main(String[] args) {
+        super.a();
+        this.a();
     }
 }
