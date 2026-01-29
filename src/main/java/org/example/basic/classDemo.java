@@ -1,6 +1,9 @@
 package org.example.basic;
 
-public class classDemo {
+import org.example.accessSpecifier.variableAccessA;
+import org.example.accessSpecifier.variableAccessB;
+
+public class classDemo extends variableAccessA {
 
     class product {           // Class names should start with uppercase by convention
         int a = 11;
@@ -11,6 +14,6 @@ public class classDemo {
         classDemo p = new classDemo();        // Outer class object
         product prod = p.new product();       // Inner class object
         System.out.println(prod.a);           // Access a through inner class object
-
+        System.out.println(p.d +" " + p.c);
     }
 }
