@@ -1,13 +1,17 @@
 package org.example.overload;
 
 public class a {
-int total;
+    //int add(int a, int b) { return a + b; }
+
+    // ❌ Compile-time error
+    //double add(int a, int b) { return a + b; }
+
+    int total;
     void product()
     {
         int p;
 
     }
-
     void product(int p,int qty)
     {
         int price;
