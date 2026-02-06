@@ -15,6 +15,7 @@ public class nonStaticNested {
 
     public  class payment{
         void payment(){
+            System.out.println("Non-static class is defined in inside another class is called as Inside member inner class");
             System.out.println("upi request genrated for 1000 $  for 25488******");
         }
     }
@@ -24,7 +25,8 @@ public class nonStaticNested {
         }
     }
     public  class debit{
-        void debit(){
+        void debit()
+        {
             System.out.println(debitA +"$ money debited from account 11151********77");
         }
     }
